@@ -31,7 +31,7 @@ public class HomeFragment extends Fragment {
         return mainView;
     }
 
-    public void ScrollToTop() {
+    public void ScrollToTop() {//在这里面写刷新数据的方法
         Toast.makeText(getActivity(), "滑动到顶部并开始刷新", Toast.LENGTH_SHORT).show();
     }
 }
