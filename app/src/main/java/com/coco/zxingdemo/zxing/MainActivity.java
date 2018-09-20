@@ -1,4 +1,4 @@
-package com.coco.zxingdemo;
+package com.coco.zxingdemo.zxing;
 
 import android.Manifest;
 import android.content.Intent;
@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.coco.zxingdemo.R;
 import com.yanzhenjie.permission.AndPermission;
 import com.yanzhenjie.permission.PermissionNo;
 import com.yanzhenjie.permission.PermissionYes;
