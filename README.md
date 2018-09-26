@@ -35,3 +35,57 @@ Android 与 webview 的js交互
 五、webview的使用场景：
 
   客户端的意见反馈和用户协议、新闻客户端的正文页和广告页等。
+  
+  
+  
+  
+ Material主题
+
+	新的控件
+
+	视图阴影
+
+	动画效果
+
+	与drawable的兼容性
+
+
+Material Design(材料设计)
+		Material Design可以理解为一门视觉设计语言，以构建跨平台和设备尺寸的统一体验，遵循基本的移动设计定则，支持触摸、语音、鼠标、键盘等输入方式为目标。通过设计方式来达到实体表面和边缘的真实感，借鉴传统的印刷设计——排版、网络、空间、比例、配色、图像使用——这些基础的平面设计规范。构建除视觉层级、视觉意义以及视觉聚焦。Material Design设计语言根据用户行为凸显核心功能，通过有意义的动画效果维持整个系统的连续性体验进而指引用户操作。
+（Google最初设计这门全新的设计语言，目的是为了打造一个google独有的设计风格。无论是手机、平板、台式机和其他平台形成统一的设计理念。）
+
+	各种设计方式：
+			拟物化（系统自带图标设计）
+			扁平化（ios 8）
+			阴影和层次化（Material Design）
+
+	材料设计要做的工作：
+			保证向后兼容性
+			使用材料设计主题
+			让视图产生阴影
+			使用List和Card
+			定制动画
+
+
+
+使用材料主题：
+
+	@android/style/Theme.Material                  	黑色背景
+	
+	@android/style/Theme.Material.Light			亮色背景
+	
+	@android/style/Theme.Material.Light.DarkActionBar
+
+
+
+
+recyclerview：
+
+	listview控件的升级版（recyclerview不仅支持垂直的还支持水平的列表）  
+	LinearLayoutManager[listview和画廊效果]
+	GridLayoutManager[网格]
+	StaggeredGridLayoutManager（recyclerview提供了多个布局管理器，控制列表的展示状态）
+	定制Item动画、指定Item之间的分隔条（分隔线、动画、以及一些监听事件需要自己定义）
+
+
+  
