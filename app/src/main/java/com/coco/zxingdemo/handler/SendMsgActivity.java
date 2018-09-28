@@ -14,9 +14,6 @@ import com.coco.zxingdemo.R;
 
 public class SendMsgActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button send;
-    private Button getMsg;
-
     private Handler threadHandler;
 
     private static final String TAG = "SendMsgActivity";
@@ -41,8 +38,8 @@ public class SendMsgActivity extends AppCompatActivity implements View.OnClickLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_send_msg);
 
-        send = findViewById(R.id.send);
-        getMsg = findViewById(R.id.stop);
+        Button send = findViewById(R.id.send);
+        Button getMsg = findViewById(R.id.stop);
 
         send.setOnClickListener(this);
         getMsg.setOnClickListener(this);
