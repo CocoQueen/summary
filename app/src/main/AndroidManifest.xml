@@ -23,13 +23,15 @@
         <activity android:name=".zxing.MainActivity" />
         <activity android:name=".clickrefresh.ClickActivity" />
         <activity android:name=".webview.WebActivity" />
-        <activity android:name=".recyclerview.RecyclerViewActivity"/>
-        <activity android:name=".handler.HandlerDemoActivity">
+        <activity android:name=".recyclerview.RecyclerViewActivity" />
+        <activity android:name=".handler.HandlerDemoActivity"/>
+        <activity android:name=".handler.CustomHandlerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 

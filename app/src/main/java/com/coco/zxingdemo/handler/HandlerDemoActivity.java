@@ -2,6 +2,7 @@ package com.coco.zxingdemo.handler;
 
 import android.annotation.SuppressLint;
 import android.os.Handler;
+import android.os.Looper;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -65,6 +66,8 @@ public class HandlerDemoActivity extends AppCompatActivity implements View.OnCli
         btn = findViewById(R.id.btn);
 
         btn.setOnClickListener(this);
+
+        Looper.loop();
 
         /***********第一种用法**************/
 
