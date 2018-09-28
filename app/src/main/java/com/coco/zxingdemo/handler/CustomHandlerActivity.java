@@ -15,7 +15,7 @@ public class CustomHandlerActivity extends AppCompatActivity {
 
     private static final String TAG = "CustomHandlerActivity";
     private MyThread thread;
-    private Handler handler2;
+    private Handler handler2;//修改
 
 //    @SuppressLint("HandlerLeak")
 //    private Handler handler = new Handler() {
@@ -42,6 +42,9 @@ public class CustomHandlerActivity extends AppCompatActivity {
 //        }
 //        thread.handler.sendEmptyMessage(1);
 //        handler.sendEmptyMessage(1);
+
+
+        //修改后
         handler2 = new Handler(thread.looper){
             @Override
             public void handleMessage(Message msg) {
@@ -56,13 +59,13 @@ public class CustomHandlerActivity extends AppCompatActivity {
 
         public Handler handler;
 
-        public Looper looper;
+        public Looper looper;//修改
 
         @SuppressLint("HandlerLeak")
         @Override
         public void run() {
             Looper.prepare();
-            looper=Looper.myLooper();
+            looper=Looper.myLooper();//修改
             handler = new Handler() {
                 @Override
                 public void handleMessage(Message msg) {
