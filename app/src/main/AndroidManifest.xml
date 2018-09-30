@@ -28,16 +28,17 @@
         <activity android:name=".handler.CustomHandlerActivity" />
         <activity android:name=".handler.HandlerThreadActivity" />
         <activity android:name=".handler.SendMsgActivity" />
-        <activity android:name=".handler.HandlerUpdateActivity">
-
-        </activity>
-        <activity android:name=".handler.NotUiThreadUpdateUiActivity">
+        <activity android:name=".handler.HandlerUpdateActivity" />
+        <activity android:name=".handler.NotUiThreadUpdateUiActivity" />
+        <activity android:name=".jifenshop.MineActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".jifenshop.PersonalProfileActivity" />
+        <activity android:name=".jifenshop.ShowSignProgressActivity"></activity>
     </application>
 
 </manifest>
