@@ -141,8 +141,8 @@ public class MineActivity extends AppCompatActivity implements View.OnClickListe
             if (!isStopCount) {
                 timer += 1000;
                 timeStr = TimeUtil.getFormatTime(timer);
-                String s = timeStr.substring(timeStr.length() - 2, timeStr.length());
-                mTv_readTime.setText(s);
+//                String s = timeStr.substring(timeStr.length() - 2, timeStr.length());
+                mTv_readTime.setText(timeStr);
             }
             countTimer();
         }

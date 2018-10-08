@@ -14,7 +14,7 @@ public class TimeUtil {
         int s = (int) (time % 60);//秒
         int m = (int) (time / 60);//分
         int h = (int) (time / 3600);//秒
-        return String.format("%02d:%2d", h, m);
+        return String.format("%02d:%02d:%02d", h, m,s);
 
     }
 }
