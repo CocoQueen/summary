@@ -8,4 +8,8 @@
     <color name="theme_default_primary_dark">#2C5CD0</color>
     <color name="theme_window_background">#2A2A2A</color>
     <color name="accent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white2">#f5f3f3</color>
+    <color name="colorRed">#d50f09</color>
 </resources>

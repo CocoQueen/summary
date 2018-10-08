@@ -30,15 +30,16 @@
         <activity android:name=".handler.SendMsgActivity" />
         <activity android:name=".handler.HandlerUpdateActivity" />
         <activity android:name=".handler.NotUiThreadUpdateUiActivity" />
-        <activity android:name=".jifenshop.MineActivity">
+        <activity android:name=".jifenshop.MineActivity" />
+        <activity android:name=".jifenshop.PersonalProfileActivity" />
+        <activity android:name=".jifenshop.ShowSignProgressActivity" />
+        <activity android:name=".progress.ProgressActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".jifenshop.PersonalProfileActivity" />
-        <activity android:name=".jifenshop.ShowSignProgressActivity"></activity>
     </application>
 
 </manifest>
