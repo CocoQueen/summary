@@ -33,7 +33,12 @@
         <activity android:name=".jifenshop.MineActivity" />
         <activity android:name=".jifenshop.PersonalProfileActivity" />
         <activity android:name=".jifenshop.ShowSignProgressActivity" />
-        <activity android:name=".progress.ProgressActivity">
+        <activity android:name=".progress.ProgressActivity" />
+
+        <activity
+            android:name=".comment.CommentActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
